@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
 "       Amir Salihefendic
@@ -393,3 +396,8 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+
+"""""""""""""""""""""""""""""
+" CUSTOM ADDITIONS
+"""""""""""""""""""""""""""""
+
