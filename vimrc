@@ -1,6 +1,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+set t_Co=256
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
 "       Amir Salihefendic
@@ -126,7 +128,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme desert
+colorscheme molokai 
 set background=dark
 
 " Set extra options when running in GUI mode
